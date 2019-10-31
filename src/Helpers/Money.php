@@ -2,7 +2,7 @@
 
 namespace RecycledBeans\Helpers;
 
-trait Money
+class Money
 {
     /**
      * Converts float currency amounts to integer for storage and arithmetic.
