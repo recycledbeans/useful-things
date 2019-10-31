@@ -49,4 +49,24 @@ class Money
         return $symbol . number_format($this->stripInvalidCharacters($value), 2);
     }
 
+    /**
+     * Alias method for converting to integer.
+     * @param $value
+     * @return int
+     */
+    public function toPennies($value)
+    {
+        return $this->toInteger($value);
+    }
+
+    /**
+     * Alias method for converting to float value
+     * @param $value
+     * @return string
+     */
+    public function toDollars($value)
+    {
+        return $this->toFloat($value);
+    }
+
 }
