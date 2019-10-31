@@ -17,7 +17,6 @@ composer require recycledbeans/useful-things
 Common methods for converting monetary values back and forth between float values (for display) and integer values (for storage and arithmetic).
 
 ```php
-
 (new Money)->toInteger('25.12'); // 2512
 
 (new Money)->toFloat(2512); // '25.12'
@@ -27,7 +26,6 @@ Common methods for converting monetary values back and forth between float value
 You can also use helpful aliases providing the same functionality.
 
 ```php
-
 (new Money)->toPennies('25.12'); // 2512
 
 (new Money)->toDollars(2512); // '25.12'
