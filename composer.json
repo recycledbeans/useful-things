@@ -1,0 +1,13 @@
+{
+    "name": "recycledbeans/useful-things",
+    "description": "A collection of helpers and useful things for developing PHP applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Watson",
+            "email": "matt@recycledbeans.com"
+        }
+    ],
+    "require": {}
+}
