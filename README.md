@@ -21,7 +21,7 @@ Common methods for converting monetary values back and forth between float value
 
 (new Money)->toFloat(2512); // '25.12'
 
-(new Money)->toMoney('25.12', '£'); // '£'
+(new Money)->toMoney('25.12', '£'); // '£25.12'
 
 ```
 
