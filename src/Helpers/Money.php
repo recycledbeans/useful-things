@@ -35,7 +35,7 @@ class Money
      */
     protected function stripInvalidCharacters($value)
     {
-        return preg_replace('/[^0-9.]/', '', $value);
+        return preg_replace('/[^0-9.-]/', '', $value);
     }
 
     /**
