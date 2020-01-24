@@ -9,9 +9,9 @@
             "email": "matt@recycledbeans.com"
         }
     ],
-    "autoload": [
+    "autoload": {
         "psr-4": {
             "RecycledBeans\\UsefulThings\\": "src/"
         }
-    ]
+    }
 }
