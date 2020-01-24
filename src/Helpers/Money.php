@@ -1,6 +1,6 @@
 <?php
 
-namespace RecycledBeans\Helpers;
+namespace RecycledBeans\UsefulThings\Helpers;
 
 class Money
 {
