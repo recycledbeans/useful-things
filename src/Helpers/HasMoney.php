@@ -2,7 +2,7 @@
 
 namespace RecycledBeans\UsefulThings\Helpers;
 
-trait Money
+trait HasMoney
 {
     /**
      * Converts float currency amounts to integer for storage and arithmetic.
